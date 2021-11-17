@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: Poppins;
+}
+#errorPassword, #errorName, #errorPhone, .errorG, #errorLast, #errorEmail {
+    display: none;
+}
+
+.errorG{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+
+.is-invalid{
+    border-color: red;
+}
